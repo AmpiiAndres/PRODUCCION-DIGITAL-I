@@ -1,0 +1,86 @@
+#logo img{
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin-top: 5px;
+}
+p{
+    color: beige;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 75px;
+
+}
+h1{
+    background-color: beige;
+    color: darkolivegreen;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    justify-content: flex-end;
+    right: 50px;
+    
+    
+}
+
+
+h2{
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 25px;
+    height: 100px;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+    margin-left: 50px;
+    max-width: min-content;
+    padding-bottom: 20px;
+    background-color: darkseagreen;
+    color: beige;
+    align-items: normal;
+
+    margin-left: 0%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: medium;
+}
+.image2{
+size: 50px;
+}
+header{
+    padding: 10px;
+    background-color: black;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.boton{
+    display: inline-block;
+    margin-top: 50px;
+    background-color: beige;
+    padding-left: 25px;
+}
+.image{
+    width: 942px; 
+    height: 465px;
+    display: flex
+    
+}
+a{
+    text-decoration: line-through;
+}
+#contenedor{
+    size: 50px;
+    height: 25px;
+    width: 50px;
+}
+section{
+    color: beige;
+    font-size: 25px;
+}
+footer{
+    font-size: 30px;
+}
