@@ -1,0 +1,409 @@
+
+#logo img{
+    display: block;
+    width: 1500px;
+    height: 250px;
+    margin-top: 5px;
+}
+
+p{
+ 
+    color: beige;
+    justify-content: flex-end;
+    font-size: 30px;
+    font-weight: 75px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+h1{
+    background-color: beige;
+    color: darkolivegreen;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    justify-content: flex-end;
+}
+h2{
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+nav{
+    font-size: 35px;
+    padding-left: 100px;
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+body{
+    font-family: 'Questrial', sans-serif;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    background-color: darkseagreen;
+    color: beige;
+    align-items: normal;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-left: 0%;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 30px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: beige;
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+
+}
+.card p{
+  line-height: 1.5;
+  color: #717171;
+}
+.card a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(62, 95, 6);
+  border: 1px solid ;
+  border-radius: 4px;
+  transition: all 400ms ease;
+
+}
+.card img{
+  width: 100%;
+  height: 210px;
+}
+.card h3{
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: darkolivegreen;
+  text-decoration: double;
+}
+.card p{
+  text-align: center;
+  justify-content: center;
+  -ms-text-size-adjust: auto;
+  color: darkgreen;
+  width: 5px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.contenedor-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    size: 50px;
+    max-width: 100%;
+    
+
+}
+.contenedor-3{
+    display: flex;
+    padding-left: 50%;
+    padding-top: 50%;
+}
+.parrafo-1{
+    font-size: 20px;
+    margin-left: 30px;
+    width: 350px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: darkolivegreen;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #67551e;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.navegador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 25px;
+  flex-flow: row;
+  padding-top: 10px;
+  color: bisque;
+  
+  
+}
+
+ul li a{
+    font-size: 30px;
+    display: flex;
+    flex: 30%;
+    color: darkolivegreen;
+    margin: 40px;
+    padding: 30px;
+    margin-left: 30px;
+    background-color: antiquewhite;
+    border-radius: 25px;  
+}
+
+.image-5{
+    width: 10;
+    height: 10px;
+}
+
+/* Imagen fija*/
+
+.imagen-fondo{
+  background: fixed;
+  background-image: url(Images/deliciosa-ensalada-banquete\ 2.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20em;
+
+}
+.container {
+  position: relative;
+}
+.box{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 700px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.titulo-banner{
+  color: black;
+  background: fixed;
+  size: 50px;
+  text-align: center;
+  padding-top: 2em;
+  background-attachment: fixed;
+}
+.texto-banner{
+  color: black;
+  text-align: center;
+  padding-top: 1em;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 15;
+  padding: 20;
+  box-sizing: border-box;
+}
+
+.form-register{
+  width: 400px;
+  background: rgb(105, 143, 106);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(210, 222, 188);
+  border-radius: 4px;
+  transition: all 400ms ease;
+  cursor: default;
+
+}
+
+.form-register h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+
+}
+
+.controls{
+  width: 100%S ;
+  background: beige;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 1px solid darkolivegreen;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+}
+
+
+.form-register p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  line-height: 40px;
+}
+
+.form-register a{
+  color: beige;
+  text-decoration: none;
+}
+
+.form-register a:hover{
+
+  color: beige;
+  text-decoration: underline;
+}
+
+
+.form-register .botons{
+  width: 100%;
+  background: beige;
+  border: none;
+  padding: none;
+  color: rgb(37, 37, 34);
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+footer{
+    width: 5000px;
+    height: 25px;
+    font-size: 30px;
+    margin-left: 100px;
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.redes-sociales img {
+  color: beige;
+  width: 70px;
+  height: 70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
